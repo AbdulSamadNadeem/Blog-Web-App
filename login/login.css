@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    background-color: #F4DDDD;
+    overflow-y: hidden;
+}
+.contianer{
+    margin: 100px auto;
+    width: 500px;
+    height: 700px;
+    background-color: #fff;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+}
+.greetings{
+    width: 320px;
+    height: 50px;
+    position: absolute;top: 160px;left: 480px;
+}
+.greetings > h1{
+    font-size: 30px;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.greetings > h1 > img{
+    position: relative;top: -5px;
+    width: 50px;
+}
+.form{
+
+    width: 330px;
+    height: 440px;
+    position: relative;top: 120px;left: 80px;
+}
+.emailinp{
+    position: relative;top: 50px;left: 5px;
+}
+.Passinp{
+    position: relative;top: 60px;left: 5px;
+}
+.emailinp > div > input{
+    width: 300px;
+    border: 1px solid #2f3640;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 10px;
+    color: #695C5C;
+}
+.emailinp > label{
+    position: relative;left: 6px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #695C5C;
+}
+.Passinp > div > input{
+    width: 300px;
+    border: 1px solid #2f3640;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 10px;
+    color: #695C5C;
+}
+.Passinp > label{
+    position: relative;left: 6px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #695C5C;
+}
+.Passinp > a{
+    color: #E86969;
+    position: relative;left: 55%;top: 10px;
+    text-decoration: none;
+}
+.Passinp > a:visited{
+    color: #E86969;
+}
+.form > button{
+    position: relative;top: 90px;left: 64px;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #0E64D2;
+    border: 1px solid #0E64D2;
+    color: #fff;
+    outline: none;
+
+}
+hr{
+    width: 330px;
+    position: relative;left: 80px;top: -30px;
+}
+.contianer > p{
+    text-align: center;
+    position: relative;top: -40px;
+    font-weight: 600;
+}
+.contianer > button{
+    position: relative;left: 145px;top: -50px;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #0E64D2;
+    border: 1px solid #0E64D2;
+    color: #fff;
+    outline: none;
+}
+.contianer > a{
+    text-decoration: none;
+}
+a:visited{
+    color: #0E64D2;
+}
+
+.loader{
+    margin:400px auto;
+}
+
+.loader {
+    width: 50px;
+    padding: 8px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background: #E86969;
+    --_m: 
+      conic-gradient(#0000 10%,#000),
+      linear-gradient(#000 0 0) content-box;
+    -webkit-mask: var(--_m);
+            mask: var(--_m);
+    -webkit-mask-composite: source-out;
+            mask-composite: subtract;
+    animation: l3 1s infinite linear;
+  }
+  @keyframes l3 {to{transform: rotate(1turn)}}

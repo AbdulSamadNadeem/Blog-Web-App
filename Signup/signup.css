@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    background-color: #F4DDDD;
+}
+.contianer{
+    margin: 100px auto;
+    width: 500px;
+    height: 700px;
+    background-color: #fff;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+}
+.greetings{
+    width: 320px;
+    height: 50px;
+    position: absolute;top: 160px;left: 510px;
+}
+.greetings > h1{
+    font-size: 30px;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.greetings > p{
+    position: relative;left: 10px;
+}
+
+.form{
+
+    width: 330px;
+    height: 440px;
+    position: relative;top: 120px;left: 80px;
+}
+.Username{
+    position: relative;top: 40px;left: 5px;
+}
+.emailinp{
+    position: relative;top: 50px;left: 5px;
+}
+.Passinp{
+    position: relative;top: 60px;left: 5px;
+}
+.phone{
+    position: relative;top: 70px;left: 5px;
+}
+.Username > div > input{
+    width: 300px;
+    border: 1px solid #2f3640;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 10px;
+    color: #695C5C;
+}
+.Username > label{
+    position: relative;left: 6px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #695C5C;
+}
+.emailinp > div > input{
+    width: 300px;
+    border: 1px solid #2f3640;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 10px;
+    color: #695C5C;
+}
+.emailinp > label{
+    position: relative;left: 6px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #695C5C;
+}
+.Passinp > div > input{
+    width: 300px;
+    border: 1px solid #2f3640;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 10px;
+    color: #695C5C;
+}
+.Passinp > label{
+    position: relative;left: 6px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #695C5C;
+}
+.phone > div > input{
+    width: 300px;
+    border: 1px solid #2f3640;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 10px;
+    color: #695C5C;
+}
+.phone > label{
+    position: relative;left: 6px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #695C5C;
+}
+
+.form > button{
+    position: relative;top: 100px;left: 64px;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #0E64D2;
+    border: 1px solid #0E64D2;
+    color: #fff;
+    outline: none;
+
+}
+hr{
+    width: 330px;
+    position: relative;left: 80px;top: 100px;
+}
+.contianer > p{
+    text-align: center;
+    position: relative;top: 100px;
+    font-weight: 600;
+}
+.contianer > button{
+    position: relative;left: 145px;top: 90px;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #0E64D2;
+    border: 1px solid #0E64D2;
+    color: #fff;
+    outline: none;
+}
+.contianer > a{
+    text-decoration: none;
+}
+a:visited{
+    color: #0E64D2;
+}
